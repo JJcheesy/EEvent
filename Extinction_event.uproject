@@ -9,5 +9,20 @@
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
+	],
+	"Plugins": [
+		{
+			"Name": "OnlineSubsystemApple",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Mac",
+				"IOS",
+				"TVOS"
+			]
+		},
+		{
+			"Name": "AdvancedSessions",
+			"Enabled": true
+		}
 	]
 }
